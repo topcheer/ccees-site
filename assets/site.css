@@ -24,7 +24,7 @@ img{max-width:100%;display:block}
 .nav .in{max-width:1280px;margin:auto;display:flex;align-items:center;justify-content:space-between;padding:1.4rem 2.5rem}
 .nav.sc{background:rgba(8,9,12,.82);backdrop-filter:blur(18px);border-bottom-color:var(--line)}
 .brand{display:flex;align-items:center;gap:.9rem}
-.brand img{height:30px;opacity:.96}
+.brand img{height:34px;background:#fff;border-radius:6px;padding:5px 9px;box-shadow:0 2px 14px rgba(0,0,0,.45)}
 .brand b{font-family:var(--disp);font-size:1.02rem;letter-spacing:.22em;font-weight:600}
 .brand b span{background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
 .menu{display:flex;gap:2.6rem;align-items:center}
