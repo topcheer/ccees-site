@@ -24,7 +24,7 @@ img{max-width:100%;display:block}
 .nav .in{max-width:1280px;margin:auto;display:flex;align-items:center;justify-content:space-between;padding:1.4rem 2.5rem}
 .nav.sc{background:rgba(8,9,12,.82);backdrop-filter:blur(18px);border-bottom-color:var(--line)}
 .brand{display:flex;align-items:center;gap:.9rem}
-.brand img{height:30px;filter:brightness(0) invert(1)}
+.brand img{height:30px;mix-blend-mode:screen;filter:contrast(1.05)}
 .brand b{font-family:var(--disp);font-size:1.02rem;letter-spacing:.22em;font-weight:600}
 .brand b span{background:var(--grad);-webkit-background-clip:text;background-clip:text;color:transparent}
 .menu{display:flex;gap:2.6rem;align-items:center}
