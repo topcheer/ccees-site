@@ -21,7 +21,7 @@ $$('.menu a').forEach(a=>a.addEventListener('click',()=>{
 /* reveal on scroll */
 const io=new IntersectionObserver(es=>es.forEach(e=>{
   if(e.isIntersecting){e.target.classList.add('on');io.unobserve(e.target)}
-}),{threshold:.12,rootMargin:'0px 0px -6% 0px'});
+}),{threshold:0,rootMargin:'0px 0px -6% 0px'});
 $$('.rv').forEach(el=>io.observe(el));
 
 /* counters */
